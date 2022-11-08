@@ -1,1 +1,2 @@
-# Project-TIC-TAC-TOE
+# TIC-TAC-TOE
+Hello! This is a project made using HTML, Javascript & CSS! This project as you can tell by the name, is the classic game of TIC-TAC-TOE, where two users (in this case from the same PC) have to enter either an 'X' or a '0' in one of the 9 boxes shown. The players are separated here in "Player1" and "Player2" and the turns are one after another. A game ends if either 'Player1' wins, 'Player2' wins or it can be a situation of a draw. Winning the game consists in matching three of the same symbols the player is playing with ('X' or '0') either in a line, a column or a diagonal. After the game ends, a "Play again" button appears. Enjoy!
