@@ -1,0 +1,59 @@
+h1 {
+    color: darkgrey;
+    white-space: nowrap;
+    font-size: 3em;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+      1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+      5px 13px 15px black;
+  }
+
+.btn {
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 30px;
+    background: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+body {
+    text-align: center;
+}
+
+.startButton {
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.startButton:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.winner {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 670px;
+    right: 670px;
+    top: 520px;
+    background-color: lightgreen;
+    color: black;
+}
+
+.resetButton {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 670px;
+    right: 670px;
+    top: 600px;
+}
